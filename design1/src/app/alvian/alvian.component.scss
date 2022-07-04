@@ -1,0 +1,131 @@
+.page {
+  display: flex;
+  width: 100%;
+
+  .side-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 100%;
+    width: 100px;
+    background-color: white;
+
+    .navigation {
+      display: flex;
+      flex-direction: column;
+      margin-top: 30px;
+
+      .button-nav {
+        margin: 15px;
+      }
+
+      .icon-page {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .logout {
+      .button-nav {
+        margin: 15px;
+        margin-bottom: 30px;
+        color: #e09997;
+      }
+    }
+  }
+  .button-nav {
+    width: 50px;
+    background-color: white;
+    color: #b2b3b4;
+    border: none;
+  }
+  .page-design {
+    display: block;
+    margin-left: 150px;
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+
+      .input-search {
+        margin-left: 60px;
+        background-color: white;
+      }
+
+      .account-nav {
+        display: flex;
+        .image-eng {
+          border-radius: 50%;
+          width: 20px;
+          height: 20px;
+          margin: 10px;
+        }
+
+        .eng {
+          margin: 10px;
+        }
+
+        .material-symbols-outlined {
+          margin: 10px;
+        }
+      }
+    }
+  }
+
+  .main {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 60px;
+
+    .section-stats {
+      display: flex;
+
+      .block-stats {
+        background-color: white;
+        border-radius: 20px;
+        margin: 20px;
+      }
+    }
+
+    .stats {
+      background-color: white;
+      border-radius: 20px;
+
+      .radio-buttons {
+        display: flex;
+      }
+    }
+
+    .account {
+      .account-info {
+        background-color: white;
+        border-radius: 20px;
+
+        .img-account {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+        }
+      }
+
+      .sheduled-posts {
+        background-color: white;
+        border-radius: 20px;
+
+        .post-block {
+          background-color: #f6f6f6;
+          border-radius: 20px;
+          .posts-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 20px;
+          }
+        }
+      }
+    }
+  }
+}
