@@ -15,6 +15,7 @@
     .navigation {
       display: flex;
       flex-direction: column;
+      align-items: center;
       margin-top: 30px;
 
       .button-nav {
@@ -22,8 +23,8 @@
       }
 
       .icon-page {
-        width: 20px;
-        height: 20px;
+        width: 60px;
+        height: 60px;
       }
     }
 
@@ -48,12 +49,33 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      position: fixed;
       width: 100%;
+      margin-top: 20px;
 
       .input-search {
-        margin-left: 60px;
+        display: flex;
+        align-items: center;
         background-color: white;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 5px;
+        padding-left: 10px;
+
+        .search {
+          height: 40px;
+          width: 300px;
+          border: none;
+          margin-left: 10px;
+        }
+
+        .btn-search {
+          border-radius: 10px;
+          background-color: #438ffe;
+          color: white;
+          border: none;
+          height: 40px;
+          width: 100px;
+        }
       }
 
       .account-nav {
@@ -66,11 +88,11 @@
         }
 
         .eng {
-          margin: 10px;
+          margin: 5px;
         }
 
         .material-symbols-outlined {
-          margin: 10px;
+          margin: 5px;
         }
       }
     }
@@ -84,16 +106,86 @@
     .section-stats {
       display: flex;
 
-      .block-stats {
+      .number {
+        font-size: 30px;
+        font-weight: bold;
+        padding: 10px;
+      }
+
+      .block-stats-followers {
         background-color: white;
-        border-radius: 20px;
+        border-radius: 10px;
         margin: 20px;
+
+        .section-title {
+          display: flex;
+          align-items: center;
+
+          .material-symbols-outlined {
+            background-color: #c5dbfc;
+            color: #438ef8;
+            margin: 10px;
+            padding: 5px;
+            border-radius: 2px;
+          }
+
+          h2 {
+            font-size: 20px;
+          }
+        }
+      }
+
+      .block-stats-likes {
+        background-color: white;
+        border-radius: 10px;
+        margin: 20px;
+
+        .section-title {
+          display: flex;
+          align-items: center;
+
+          .material-symbols-outlined {
+            background-color: #fbebec;
+            color: #ed2738;
+            margin: 10px;
+            padding: 5px;
+            border-radius: 2px;
+          }
+
+          h2 {
+            font-size: 20px;
+          }
+        }
+      }
+
+      .block-stats-comments {
+        background-color: white;
+        border-radius: 10px;
+        margin: 20px;
+
+        .section-title {
+          display: flex;
+          align-items: center;
+
+          .material-symbols-outlined {
+            background-color: #ffe8db;
+            color: #e67733;
+            margin: 10px;
+            padding: 5px;
+            border-radius: 2px;
+          }
+
+          h2 {
+            font-size: 20px;
+          }
+        }
       }
     }
 
     .stats {
       background-color: white;
-      border-radius: 20px;
+      border-radius: 10px;
+      margin: 20px;
 
       .radio-buttons {
         display: flex;
