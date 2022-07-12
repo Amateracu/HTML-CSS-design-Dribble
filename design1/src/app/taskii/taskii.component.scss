@@ -1,0 +1,413 @@
+.taskii {
+  display: flex;
+  height: 100%;
+  background-color: white;
+
+  .nav-header {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+
+    .side-bar {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 200px;
+      height: 100%;
+
+      img {
+        margin: 20px;
+        width: 100px;
+      }
+
+      .side-bar-btn {
+        display: flex;
+        align-items: center;
+        border: none;
+        background-color: white;
+        color: #56546d;
+
+        .material-symbols-outlined {
+          margin: 15px;
+        }
+      }
+
+      .reporting {
+        color: #9b9aa4;
+        font-size: small;
+        margin: 15px;
+      }
+    }
+
+    .side-bar-banner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+      width: 150px;
+      height: 300px;
+      border-radius: 20px;
+      background-image: url("/assets/images2/photo_2022-07-08_14-24-11.jpg");
+
+      .header-banner {
+        margin-top: 15px;
+      }
+
+      .text-banner {
+        font-size: small;
+        margin-top: 15px;
+      }
+
+      .side-bar-btn-east {
+        width: 45px;
+        height: 45px;
+        border: none;
+        border-radius: 7px;
+        background-color: #ff783d;
+        position: absolute;
+        margin-top: 200px;
+      }
+    }
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+
+    .header-page {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+
+      .header-title {
+        display: flex;
+        flex-direction: column;
+
+        .welcome {
+          font-size: larger;
+        }
+
+        .morning {
+          font-size: larger;
+          font-weight: bolder;
+          color: #fe763d;
+        }
+      }
+
+      .material-symbols-outlined {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #322646;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        color: white;
+      }
+    }
+
+    .section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .player {
+        width: 270px;
+        height: 270px;
+      }
+
+      .weather-messages {
+        display: flex;
+        flex-direction: column;
+
+        .weather {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: #ccedff;
+          border-radius: 15px;
+          padding: 23px;
+          margin-left: 10px;
+
+          .weather-value {
+            display: flex;
+            flex-direction: column;
+
+            .weather-time {
+              font-size: larger;
+              font-weight: bolder;
+            }
+
+            .weather-description {
+              font-size: small;
+            }
+          }
+        }
+
+        .messages {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: #c29dfd;
+          border-radius: 15px;
+          padding: 23px;
+          margin-top: 10px;
+          margin-left: 10px;
+
+          .messages-value {
+            display: flex;
+            flex-direction: column;
+
+            .messages-name {
+              font-size: larger;
+              font-weight: bolder;
+            }
+
+            .messages-quantity {
+              font-size: small;
+            }
+          }
+        }
+      }
+    }
+
+    .to-do-list {
+      display: flex;
+      flex-direction: column;
+
+      .dashboard-title {
+        font-weight: bold;
+      }
+
+      .dashboard-time {
+        margin: 15px;
+        font-size: small;
+      }
+
+      img {
+        border-radius: 10px;
+        margin: 10px;
+      }
+
+      .dashboard-desing {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffcb5d;
+        border-radius: 10px;
+        margin-top: 30px;
+
+        .dashboard-right {
+          display: flex;
+          align-items: center;
+        }
+      }
+
+      .dashboard-unity {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ccedff;
+        border-radius: 10px;
+        margin-top: 10px;
+
+        .dashboard-right {
+          display: flex;
+          align-items: center;
+        }
+      }
+
+      .dashboard-collab {
+        background-color: #f3f5f7;
+        border-radius: 10px;
+        margin-top: 10px;
+        .dashboard-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: #f3f5f7;
+          border-radius: 10px;
+
+          .dashboard-right {
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+
+  .account {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+
+    .account-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .account-name {
+        display: flex;
+        flex-direction: column;
+
+        .name {
+          font-size: large;
+          font-weight: bold;
+          margin-bottom: 3px;
+        }
+
+        .profile-edit {
+          font-size: small;
+          font-weight: bold;
+          color: #fe763d;
+        }
+      }
+
+      .profile-img {
+        width: 60px;
+        border-radius: 10px;
+      }
+    }
+
+    .weekly-planned-header {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+      margin-bottom: 10px;
+
+      .weekly-planned-title {
+        font-size: 20px;
+        font-weight: bolder;
+      }
+
+      .view-all {
+        font-size: small;
+        font-weight: bold;
+        color: #fe763d;
+      }
+    }
+
+    .weekly-block-jasmine {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #ebddf8;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+
+      .weekly-block-right {
+        display: flex;
+        align-items: center;
+
+        img {
+          border-radius: 10px;
+          margin-right: 10px;
+        }
+
+        .weekly-blovk-name-title {
+          font-weight: bold;
+        }
+      }
+
+      .weekly-date {
+        font-size: small;
+      }
+    }
+
+    .meeting-with-client {
+      display: flex;
+      background-color: #e1f5e9;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      padding: 20px;
+
+      .meeting-img {
+        position: absolute;
+        border-radius: 10px;
+        margin-right: 10px;
+      }
+
+      .meeting-with-client-content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+
+        .meeting-title {
+          font-weight: bold;
+        }
+
+        .meeting-date {
+          font-size: small;
+        }
+
+        .meeting {
+          background-color: #6eca97;
+          border-radius: 20px;
+          width: 75px;
+          padding: 3px;
+          margin: 7px;
+          color: white;
+          padding-left: 20px;
+          font-size: small;
+        }
+
+        .footer-meeting {
+          font-size: small;
+        }
+      }
+    }
+
+    .add-new-plan {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      background-color: #322646;
+      border-radius: 10px;
+
+      img {
+        border-radius: 10px;
+        margin-right: 10px;
+      }
+
+      .name {
+        color: white;
+        font-weight: bold;
+      }
+    }
+
+    .calendar {
+      margin-top: 40px;
+      .calendar-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+
+        .calendar-title {
+          font-size: 20px;
+          font-weight: bolder;
+        }
+
+        .navigation-calendar {
+          .material-symbols-outlined {
+            background-color: #eceff4;
+            border-radius: 50%;
+            margin: 5px;
+          }
+        }
+
+        .two-weeks {
+          font-size: small;
+          color: #fe763d;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
